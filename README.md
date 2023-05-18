@@ -18,7 +18,14 @@ chmod +x setup.sh
 sudo bash setup.sh
 ```
 
+<br>
+
 **NOTA:** En el script de configuracion puedes editar el usuario y contraseña de la base de datos.
+
+<p align="center">
+<img src="Img/muestra.png">
+</p>
+
 
 Para cambiar la contraseña del usuario root:
 ```bash
