@@ -55,6 +55,9 @@ echo
 
            1) echo
            source Scripts/requisitos.sh
+           source Scripts/requisitos.sh
+           source Scripts/requisitos.sh
+           source Scripts/requisitos.sh
            echo -e "   \033[1m [+] Requisitos instalados \033[0m"
            sleep 1.5;;
 
