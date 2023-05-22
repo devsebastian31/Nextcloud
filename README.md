@@ -41,4 +41,6 @@ mysql -u root -p -e "GRANT ALL PRIVILEGES ON nextcloud.* TO 'nextcloud'@'localho
 mysql -u root -p -e "FLUSH PRIVILEGES;"
 ```
 
+**NOTA:** Te pedirá varias veces la contraseña deberes ingresar la contraseña que cambiaste en el archivo de configuración. 
+
 
