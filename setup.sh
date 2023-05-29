@@ -72,7 +72,8 @@ echo
            source Scripts/configuracion.sh;;
 
            3) echo
-           source Scripts/directorios.sh;;
+           source Scripts/directorios.sh
+           sleep 1.5;;
 
            4) echo
            clear
