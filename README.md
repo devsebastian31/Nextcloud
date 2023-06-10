@@ -41,14 +41,7 @@ mysql -u root -p -e "GRANT ALL PRIVILEGES ON nextcloud.* TO 'nextcloud'@'localho
 mysql -u root -p -e "FLUSH PRIVILEGES;"
 ```
 
-**NOTA:** Al ejecutar el script te pedirá varias veces la contraseña deberes ingresar la contraseña que cambiaste en el archivo de configuración para la base de datos. 
-
-Tambien tendras que editar el archivo **/etc/apache2/sites-available/nextcloud.conf** y editar la siguiente línea de código:
-
-<p align="center">
-<img src="Img/muestra2.png">
-</p>
-
+**NOTA:** Al ejecutar el script te pedirá varias veces la contraseña deberes ingresar la contraseña que cambiaste en el archivo de configuración para la base de datos.
 
 
 
