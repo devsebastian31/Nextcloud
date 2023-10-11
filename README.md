@@ -18,8 +18,6 @@ chmod +x setup.sh
 sudo bash setup.sh
 ```
 
-<br>
-
 **NOTA:** En el script de configuracion puedes editar el usuario y contraseña de la base de datos.
 
 Para cambiar la contraseña del usuario root:
@@ -37,6 +35,8 @@ mysql -u root -p -e "FLUSH PRIVILEGES;"
 ```
 
 **NOTA:** Al ejecutar el script te pedirá varias veces la contraseña deberes ingresar la contraseña que cambiaste en el archivo de configuración para la base de datos.
+
+<br>
 
 <p align="center">
 <img src="Img/muestra.png">
