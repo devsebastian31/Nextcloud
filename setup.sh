@@ -1,6 +1,6 @@
 #!/bin/bash
 
-while 
+while :
 do
 
 clear
