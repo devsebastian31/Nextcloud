@@ -26,7 +26,7 @@ mysql -u root -p -e "FLUSH PRIVILEGES;"
 
 
 ```
-git clone https://github.com/bl4ck44/Nextcloud.git
+git clone https://github.com/Devsebastian31/Nextcloud.git
 
 cd Nextcloud
 
