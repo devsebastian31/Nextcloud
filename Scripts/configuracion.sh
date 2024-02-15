@@ -1,10 +1,13 @@
 #!/bin/bash
 
-# Cambiar la contraseña del usuario root en mysql
-mysql -e "ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password by 'Password444@';"
+# Solicitar entrada al usuario para la contraseña
+read -p "Contraseña para Mysql: " -s contrasena
+
+# Cambiar la contraseña del usuario root en mysql usando la contraseña ingresada
+mysql -e "ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '$contrasena';"
 
 # Salir de MySQL y crear un usuario, contraseña y una base de datos para Nextcloud
-mysql -u root -p -e "CREATE USER 'nextcloud'@'localhost' IDENTIFIED BY 'Password444@';"
+mysql -u root -p -e "CREATE USER 'nextcloud'@'localhost' IDENTIFIED BY '$contrasena';"
 mysql -u root -p -e "CREATE DATABASE nextcloud;"
 mysql -u root -p -e "GRANT ALL PRIVILEGES ON nextcloud.* TO 'nextcloud'@'localhost';"
 mysql -u root -p -e "FLUSH PRIVILEGES;"
