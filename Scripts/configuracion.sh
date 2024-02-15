@@ -3,6 +3,8 @@
 # Solicitar entrada al usuario para la contraseña
 read -p "Contraseña para Mysql: " -s contrasena
 
+echo
+
 # Cambiar la contraseña del usuario root en mysql usando la contraseña ingresada
 mysql -e "ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '$contrasena';"
 
