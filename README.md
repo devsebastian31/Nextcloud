@@ -1,5 +1,4 @@
 # Nextcloud
-
 <p align="center">
 <img src="Logotipo.png" width="540px" height="350px">
 </p>
