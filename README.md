@@ -1,7 +1,7 @@
 # Nextcloud
 
 <p align="center">
-<img src="Logotipo.png" width="540px" height="350px">
+<img src="Logotipo.jpg" width="540px" height="350px">
 </p>
 
 Nextcloud es una plataforma de almacenamiento y colaboración de código abierto que permite a los usuarios gestionar y compartir archivos, colaborar en documentos, organizar calendarios y tareas, y más. Desarrollado inicialmente como un fork de ownCloud, Nextcloud se ha convertido en una solución popular y confiable utilizada por individuos, organizaciones y empresas para satisfacer sus necesidades de gestión de datos en la nube
